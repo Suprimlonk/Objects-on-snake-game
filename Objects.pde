@@ -1,8 +1,19 @@
 //cretae the class of the objects
-class Objetos {
+class Objects {
     float x, y;
-    float lado;
+    float side;
     color c;
-    float dx, dy;
-    objetos(float x_, float y_, float )
+    //create variables
+    objetos(float x_, float y_, float side_, ){
+        x=x_;
+        y=y_;
+        lado=lado_;
+        c=c_;
+    }
+    //show the objects
+    void show(){
+        full(c);
+        noStroke();
+        rect(x,y,)
+    }
 }
