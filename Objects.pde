@@ -7,7 +7,7 @@ class Objects {
     int finaltime;
     boolean active;
     //create variables
-    objetos(float x_, float y_, float side_,int time_,int finaltime_, boolean active_){
+    Objects(float x_, float y_, float side_,int time_,int finaltime_, boolean active_){
         x=x_;
         y=y_;
         side=side_;
